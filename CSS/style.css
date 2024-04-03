@@ -59,7 +59,7 @@ body{
 
 #container2 >img{
     width: 70%;
-    height : 80vh;
+    height : 40vh;
 
   
    
@@ -92,8 +92,8 @@ body{
     
 }
 #container1 > img {
-    max-width: 60%;
-    max-height: 60%;
+    min-width: 80%;
+    min-height: 80%;
     
 }
 
@@ -106,7 +106,7 @@ h2{
     flex-direction: column;
     min-height: 100vh;
     padding: 0%;
-    max-width: 100%;
+    min-width: 100%;
 }
 
 #text{
