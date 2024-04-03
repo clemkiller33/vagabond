@@ -130,7 +130,7 @@
         display: block;
         position: absolute;
         display: block;
-        height: 32px;
+        height: 5vh;
         width: 32px;
         top: 20px; 
         left: 20px;
@@ -141,8 +141,8 @@
   
      .nav-container .hamburger-lines {
         display: block;
-        height: 8vh;
-        width: 55px;
+        height: 10vh;
+        width: 10%;
         position: absolute;
         top: 17px;
         left: 20px;
@@ -170,7 +170,7 @@
 
       #container2 > image{
         max-width: 35%;
-        max-height: 15vh;
+        max-height: 10vh;
       }
 
       #container2{
