@@ -148,6 +148,9 @@
       #menu_liste{
           display: none;
       }
+      #sans_footer > img{
+        display:none;
+      }
   }
 
 
