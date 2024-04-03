@@ -120,35 +120,35 @@
   
   @media (max-width: 768px) {
     .nav-container .checkbox {
-      display: block;
-      position: absolute;
-      height: 4vw; /* Ajustement de la hauteur en pourcentage de la largeur de la fenêtre */
-      width: 4vw; /* Ajustement de la largeur en pourcentage de la largeur de la fenêtre */
-      top: 5vh; /* Ajustement de la position verticale en pourcentage de la hauteur de la fenêtre */
-      left: 5vh; /* Ajustement de la position horizontale en pourcentage de la hauteur de la fenêtre */
-      z-index: 5;
-      opacity: 0;
-      cursor: pointer;
+        display: block;
+        position: absolute;
+        display: block;
+        height: 32px;
+        width: 32px;
+        top: 20px;
+        left: 20px;
+        z-index: 5;
+        opacity: 0;
+        cursor: pointer;
     }
   
     .nav-container .hamburger-lines {
-      display: block;
-      height: 3vw; 
-      width: 4vw; 
-      position: absolute;
-      top: 4vh; 
-      left: 5vh; 
-      z-index: 2;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-    }
-  
-    #menu_liste {
-      display: none;
-    }
+        display: block;
+        height: 26px;
+        width: 32px;
+        position: absolute;
+        top: 17px;
+        left: 20px;
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+
+      #menu_liste{
+          display: none;
+      }
   }
-  
 
 
     
