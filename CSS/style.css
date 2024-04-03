@@ -8,6 +8,8 @@
   }
 
 
+  
+
  
   img, picture, video, canvas, svg {
     display: block;
@@ -41,8 +43,9 @@
     display:flex;
     flex-direction: row;
     gap: 5%;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     margin-right: 5vh;
+    
   }
 
 
@@ -52,9 +55,10 @@ body{
     overflow-y: scroll;
     scroll-snap-type: y mandatory;
     margin: 0;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Montserrat", sans-serif;
     text-align: center;
     text-decoration: none;
+    font-size: 125%;
 }
 
 #container2 >img{
@@ -107,6 +111,11 @@ h2{
     min-height: 100vh;
     padding: 0;
     max-width: 100%;
+}
+
+#container4 > img{
+  max-width: 20%;
+  max-height: 25vh;
 }
 
 #text{
@@ -197,9 +206,15 @@ a:hover{
   display: flex;
   flex-direction: row  ;
   max-width: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
 footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   min-width: 100%;
   background: linear-gradient(to top, black 40%, white 60%);
   padding: 0%;

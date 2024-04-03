@@ -1,9 +1,12 @@
 
-
+#text > img{
+  display: none;
+}
 .navbar {
     width: 100%;
     position:absolute;
-    z-index: 1000   ;
+    z-index: 1000;
+    
   }
   
   .nav-container {
@@ -11,6 +14,7 @@
     justify-content: space-between;
     align-items: center;
     height: 10vh;
+
   }
   
   .navbar .menu-items {
@@ -148,6 +152,14 @@
         justify-content: space-between;
         color: white;
       }
+      .nav-container .hamburger-lines .line {
+        display: block;
+        height: 1.5vh;
+        width: 100%;
+        border-radius: 10px;
+        background: #0e2431;
+      }
+      
 
       #menu_liste{
           display: none;
@@ -166,8 +178,16 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding-bottom: 20%;
+      }
+
+      #text > img{
+        display: block;
+        max-width: 70%;
+        max-height: 70vh;
+        padding-top: 10%;
       }
   }
 
 
-    
+  
