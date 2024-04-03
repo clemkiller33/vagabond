@@ -40,7 +40,7 @@
     list-style: none;
     display:flex;
     flex-direction: row;
-    gap: 10%;
+    gap: 5%;
     font-size: 2.5rem;
     margin-right: 5vh;
   }
@@ -58,8 +58,8 @@ body{
 }
 
 #container2 >img{
-    width: 70%;
-    height : 40vh;
+    max-width: 60%;
+    height : 60vh;
 
   
    
@@ -92,8 +92,8 @@ body{
     
 }
 #container1 > img {
-    min-width: 80%;
-    min-height: 80%;
+    max-width: 65%;
+    max-height: 65%;
     
 }
 
