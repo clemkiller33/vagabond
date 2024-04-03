@@ -10,7 +10,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 62px;
+    height: 10vh;
   }
   
   .navbar .menu-items {
@@ -36,7 +36,7 @@
   .nav-container {
     display: block;
     position: relative;
-    height: 60px;
+    height: 10vh;
   }
   
   .nav-container .checkbox {
@@ -49,7 +49,7 @@
   
   .nav-container .hamburger-lines .line {
     display: block;
-    height: 4px;
+    height: 5vh;
     width: 100%;
     border-radius: 10px;
     background: #0e2431;
@@ -70,7 +70,7 @@
   }
   
   .navbar .menu-items {
-    padding-top: 120px;
+    padding-top: 2vh;
    
     height: 100vh;
     width: 100%;
@@ -95,7 +95,7 @@
     right: 15px;
     font-size: 1.2rem;
     color: #0e2431;
-    margin-left:150px;
+    margin-left:25%;
   }
   
   .nav-container input[type="checkbox"]:checked ~ .menu-items {
@@ -119,37 +119,36 @@
   }
   
   @media (max-width: 768px) {
-      .nav-container .checkbox {
-          display: block;
-          position: absolute;
-          display: block;
-          height: 32px;
-          width: 32px;
-          top: 20px;
-          left: 20px;
-          z-index: 5;
-          opacity: 0;
-          cursor: pointer;
-      }
-    
-      .nav-container .hamburger-lines {
-          display: block;
-          height: 26px;
-          width: 32px;
-          position: absolute;
-          top: 17px;
-          left: 20px;
-          z-index: 2;
-          display: flex;
-          flex-direction: column;
-          justify-content: space-between;
-        }
-
-        #menu_liste{
-            display: none;
-        }
+    .nav-container .checkbox {
+      display: block;
+      position: absolute;
+      height: 4vw; /* Ajustement de la hauteur en pourcentage de la largeur de la fenêtre */
+      width: 4vw; /* Ajustement de la largeur en pourcentage de la largeur de la fenêtre */
+      top: 5vh; /* Ajustement de la position verticale en pourcentage de la hauteur de la fenêtre */
+      left: 5vh; /* Ajustement de la position horizontale en pourcentage de la hauteur de la fenêtre */
+      z-index: 5;
+      opacity: 0;
+      cursor: pointer;
     }
-
+  
+    .nav-container .hamburger-lines {
+      display: block;
+      height: 3vw; 
+      width: 4vw; 
+      position: absolute;
+      top: 4vh; 
+      left: 5vh; 
+      z-index: 2;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  
+    #menu_liste {
+      display: none;
+    }
+  }
+  
 
 
     
