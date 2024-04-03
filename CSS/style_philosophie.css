@@ -170,7 +170,7 @@
 
       #container2 > image{
         max-width: 35%;
-        max-height: 30vh;
+        max-height: 15vh;
       }
 
       #container2{
@@ -186,6 +186,14 @@
         max-width: 70%;
         max-height: 70vh;
         padding-top: 10%;
+      }
+      html,
+      body{
+        font-size: 100%;
+      }
+
+      #container1 >img{
+        padding-bottom: 15%;
       }
   }
 
